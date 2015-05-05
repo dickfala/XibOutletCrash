@@ -14,6 +14,8 @@
 		6FCBBB3C1AF9107800D09904 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FCBBB3B1AF9107800D09904 /* Images.xcassets */; };
 		6FCBBB3F1AF9107800D09904 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FCBBB3D1AF9107800D09904 /* LaunchScreen.xib */; };
 		6FCBBB4B1AF9107800D09904 /* xibDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCBBB4A1AF9107800D09904 /* xibDemoTests.m */; };
+		6FCBBB551AF910B100D09904 /* TestXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FCBBB541AF910B100D09904 /* TestXib.xib */; };
+		6FCBBB581AF9112300D09904 /* TestXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCBBB571AF9112300D09904 /* TestXib.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		6FCBBB441AF9107800D09904 /* xibDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xibDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FCBBB491AF9107800D09904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FCBBB4A1AF9107800D09904 /* xibDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xibDemoTests.m; sourceTree = "<group>"; };
+		6FCBBB541AF910B100D09904 /* TestXib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestXib.xib; sourceTree = "<group>"; };
+		6FCBBB561AF9112300D09904 /* TestXib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestXib.h; sourceTree = "<group>"; };
+		6FCBBB571AF9112300D09904 /* TestXib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestXib.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,9 @@
 				6FCBBB351AF9107800D09904 /* ViewController.h */,
 				6FCBBB361AF9107800D09904 /* ViewController.m */,
 				6FCBBB381AF9107800D09904 /* Main.storyboard */,
+				6FCBBB541AF910B100D09904 /* TestXib.xib */,
+				6FCBBB561AF9112300D09904 /* TestXib.h */,
+				6FCBBB571AF9112300D09904 /* TestXib.m */,
 				6FCBBB3B1AF9107800D09904 /* Images.xcassets */,
 				6FCBBB3D1AF9107800D09904 /* LaunchScreen.xib */,
 				6FCBBB2E1AF9107800D09904 /* Supporting Files */,
@@ -202,6 +210,7 @@
 				6FCBBB3A1AF9107800D09904 /* Main.storyboard in Resources */,
 				6FCBBB3F1AF9107800D09904 /* LaunchScreen.xib in Resources */,
 				6FCBBB3C1AF9107800D09904 /* Images.xcassets in Resources */,
+				6FCBBB551AF910B100D09904 /* TestXib.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +231,7 @@
 				6FCBBB371AF9107800D09904 /* ViewController.m in Sources */,
 				6FCBBB341AF9107800D09904 /* AppDelegate.m in Sources */,
 				6FCBBB311AF9107800D09904 /* main.m in Sources */,
+				6FCBBB581AF9112300D09904 /* TestXib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

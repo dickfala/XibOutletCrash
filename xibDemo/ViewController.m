@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIView *testXibView = [[[NSBundle mainBundle] loadNibNamed:@"TestXib" owner:self options:nil] objectAtIndex:0];
+      [self.theView addSubview:testXibView];
 }
 
 - (void)didReceiveMemoryWarning {
